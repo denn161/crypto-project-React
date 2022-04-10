@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+
+* {   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: gold;
+    display: flex;    
+
+}
+.banner{   
+    background-image:url('./components/image/banner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 600px;   
+    display: flex;
+   
+   
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px !important;
+    padding-bottom: 70px !important;
+    height: 100%!important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center!important;
+   
+  }
+  
+  .swiper-slide {   
+    background-color: #fff !important;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50%!important;
+   }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100% !important;
+    height: 100%!important;
+    opacity: 1 !important;
+    border-radius: 50%!important;
+    object-fit: cover;
+    object-position: center bottom;
+  }
+  
+  .swiper-slide a{
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+   @media(max-width:414px){
+
+    .makeStyles-content-10{
+        text-align: center;
+    }
+
+    .makeStyles-content-10 h2{
+        font-size:2.75rem;
+    }
+
+
+   }
+
+   canvas{
+       max-width: 100% !important;
+       display: flex !important;
+       
+   }
+
+   @media(max-width:415px){
+    .MuiTypography-root.MuiTypography-h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .MuiTypography-root.MuiTypography-subtitle2{
+        text-align: center;
+    }
+   }
